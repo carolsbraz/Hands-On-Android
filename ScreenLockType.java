@@ -33,9 +33,10 @@ public enum ScreenLockType {
     PATTERN(
             DevicePolicyManager.PASSWORD_QUALITY_SOMETHING,
             "unlock_set_pattern"),
-    SMARTLAMP(
-            DevicePolicyManager.PASSWORD_QUALITY_SOMETHING,
-            "unlock_set_smartlamp"),
+    DEVTITANS(
+            DevicePolicyManager.PASSWORD_QUALITY_SMARTLAMP,
+                "unlock_set_pattern_titans"),
+
     PIN(
             DevicePolicyManager.PASSWORD_QUALITY_NUMERIC,
             DevicePolicyManager.PASSWORD_QUALITY_NUMERIC_COMPLEX,
